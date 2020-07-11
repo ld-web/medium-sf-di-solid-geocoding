@@ -26,11 +26,6 @@ class Destination
      */
     private $country;
 
-    public function __construct()
-    {
-        $this->voyages = new ArrayCollection();
-    }
-
     public function getCity(): ?string
     {
         return $this->city;
